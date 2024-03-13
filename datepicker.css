@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#div1,
+#div2 {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.header span {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.other-month {
+    color: #ccc;
+}
